@@ -15,6 +15,12 @@ Operational Status
 Lifecycle Status  
 Assigned Team  
 
+## Financial & KPI Metrics
+- Total Capital Cost (`prefix_totalcapcost`)
+- Total Net Book Value (`prefix_totalnbv`)
+- Total Active Equipment Count (`prefix_totalactiveequipmentcount`)
+- Total Asset Records Count (`prefix_totalassetrecordscount`)
+
 ## Related Entities
 
 Maintenance Logs  
