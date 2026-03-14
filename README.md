@@ -9,6 +9,18 @@ The system provides a single source of truth for equipment lifecycle management,
 
 ---
 
+## 📚 Documentation Directory
+Explore the technical architecture and governance of this system by clicking through the documentation below:
+
+* 🏗️ **[System Architecture](system-architecture.md)** - Overview of data integration, Dataverse layers, and enterprise SQL mirroring.
+* 🗄️ **[Equipment Entity Design](equipment-entity-design.md)** - Core fields, data relationships, and financial KPI metrics.
+* ⚙️ **[Automation Logic & Metric Calculation](automation-logic.md)** - Custom Power Automate engineering for bypassing large-volume data retrieval limits.
+* 🛡️ **[Data Governance Strategy](data-governance.md)** - Security roles, the Overlay Soft-Close rule, and historical data preservation.
+* 🔄 **[Equipment Lifecycle Workflow](equipment-lifecycle.md)** - Operational states and transition controls.
+* 🗺️ **[System Roadmap](system-roadmap.md)** - The strategic transition from foundational prototype to enterprise SQL integration.
+
+---
+
 ## Problem
 
 Equipment data was historically tracked using independent regional spreadsheets, which created:
