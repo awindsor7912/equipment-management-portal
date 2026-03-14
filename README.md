@@ -1,4 +1,4 @@
-# equipment-management-portal
+# Equipment Management Portal (EMP)
 Architecture and documentation for a Power Platform Enterprise Asset Management (EAM-lite) system designed to replace spreadsheet-based equipment tracking.
 
 ## Overview
