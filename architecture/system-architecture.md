@@ -21,7 +21,7 @@ These systems remain the authoritative system of record.
 
 ## Data Integration Layer
 
-Dataflows are used to ingest equipment data into Dataverse in a controlled and repeatable process.
+Dataflows are used to ingest equipment data into Dataverse in a controlled and repeatable process. SQL systems act as a read-only mirror, while Dataverse stores the operational overlay fields.
 
 This ensures:
 - consistent data refresh cycles
