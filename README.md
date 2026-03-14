@@ -35,9 +35,9 @@ A centralized Power Platform application built using:
 
 SQL Source Data (Read-Only Mirror) 
 ↓  
-Dataflow Ingestion & Cleanup with Power Query  
+Dataflow Ingestion & Cleanup with Power Query   
 ↓  
-Dataverse Asset Tables (Operational Overlays)
+Dataverse Asset Tables (Operational Overlays) 
 ↓  
 Power Apps Model Driven Application  
 ↓  
