@@ -1,6 +1,8 @@
 # Equipment Management Portal (EMP)
 **An Enterprise Asset Management (EAM-lite) System for High-Stakes Operational Tracking.**
 
+![EMP BANNER](EMP.jpg)
+
 ## 📑 Overview
 The Equipment Management Portal is a model-driven solution designed to centralize equipment tracking, improve asset visibility, and standardize lifecycle management. It replaces fragmented spreadsheet-based tracking with a unified system of record, establishing a scalable foundation for regional operations and executive reporting.
 
