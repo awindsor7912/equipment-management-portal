@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+remote_theme: just-the-docs/just-the-docs
+title: EMP Project
+description: Technical Documentation, Case Studies, Etc. 
+aux_links:
+  "View on GitHub": https://github.com/awindsor7912
