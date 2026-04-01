@@ -267,7 +267,7 @@ description: Centralized equipment tracking and data management concept designed
         <h3>LinkedIn</h3>
         <p>Professional background and current experience overview.</p>
         <div class="project-links">
-          <a href="http://www.linkedin.com/in/ashley-mcmillon-929799257">View LinkedIn</a>
+          <a href="www.linkedin.com/in/ashleydwindsor">View LinkedIn</a>
         </div>
       </article>
     </div>
