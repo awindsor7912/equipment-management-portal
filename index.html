@@ -1,196 +1,284 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Equipment Management Portal (EMP) | Ashley Windsor</title>
-  <meta name="description" content="Centralized equipment tracking and data management concept designed to improve operational visibility and reduce fragmented manual tracking.">
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-shell">
-      <a class="brand" href="https://awindsor7912.github.io/">
+---
+layout: default
+title: Equipment Management Portal (EMP)
+permalink: /
+---
+
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="https://awindsor7912.github.io/#home">
+      <span class="brand-mark">AW</span>
+      <span class="brand-text">Ashley Windsor | Operations &amp; Analytics Portfolio</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a class="nav-link" href="https://awindsor7912.github.io/#home">Home</a>
+      <a class="nav-link" href="https://awindsor7912.github.io/billing-operations-management-system/">BOMS</a>
+      <a class="nav-link nav-link-active" href="https://awindsor7912.github.io/equipment-management-portal/">EMP</a>
+      <a class="nav-link" href="https://awindsor7912.github.io/Operations-Analytics-Portfolio/">Analytics</a>
+      <a class="nav-link" href="https://awindsor7912.github.io/the-master-s-loom/">Loom</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="project-hero">
+    <div class="project-hero-media">
+      <img src="EMP.jpg" alt="Equipment Management Portal summary visual">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container project-hero-content">
+      <div class="hero-copy">
+        <span class="section-kicker">Data Management System</span>
+        <h1>Equipment Management Portal (EMP)</h1>
+        <p class="hero-lead">
+          Centralized asset and equipment tracking solution designed to replace fragmented spreadsheet-based processes with a more structured operating model for lifecycle visibility, data integrity, and cross-functional access.
+        </p>
+        <p class="hero-support">
+          Positioned as a business systems and data architecture initiative focused on standardization, relational structure, and operational visibility across equipment records rather than isolated local tracking.
+        </p>
+
+        <div class="button-row">
+          <a class="button button-primary" href="https://github.com/awindsor7912/equipment-management-portal" target="_blank" rel="noopener noreferrer">View Source</a>
+          <a class="button button-secondary" href="https://awindsor7912.github.io/#home">Back to Home</a>
+        </div>
+      </div>
+
+      <aside class="hero-summary-card">
+        <span class="summary-label">Project Snapshot</span>
+
+        <div class="summary-item">
+          <span class="summary-key">Primary Focus</span>
+          <span class="summary-value">Centralized equipment and asset data management</span>
+        </div>
+
+        <div class="summary-item">
+          <span class="summary-key">Core Direction</span>
+          <span class="summary-value">Relational data modeling and process standardization</span>
+        </div>
+
+        <div class="summary-item">
+          <span class="summary-key">Platform Strategy</span>
+          <span class="summary-value">Dataverse-centered architecture with enterprise data integration direction</span>
+        </div>
+
+        <div class="summary-item">
+          <span class="summary-key">Business Value</span>
+          <span class="summary-value">Improved visibility, consistency, and control over equipment records</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="container">
+      <div class="metrics-grid">
+        <article class="metric-card">
+          <span class="metric-value">Centralized</span>
+          <span class="metric-label">Equipment data governance and record control</span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-value">Structured</span>
+          <span class="metric-label">Relational approach to asset tracking and lifecycle data</span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-value">Reduced</span>
+          <span class="metric-label">Dependence on disconnected spreadsheet management</span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-value">Improved</span>
+          <span class="metric-label">Visibility into equipment status and data quality</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Business Context</span>
+        <h2>Business Issues Addressed</h2>
+        <p>
+          EMP was designed to replace fragmented equipment tracking methods with a centralized operating model that improves data consistency, lifecycle visibility, and administrative control.
+        </p>
+      </div>
+
+      <div class="split-grid">
+        <article class="content-card">
+          <h3>Primary Business Issues</h3>
+          <ul>
+            <li>Equipment records managed across disconnected spreadsheets and regional files</li>
+            <li>Limited consistency in how lifecycle updates, assignments, and status changes were tracked</li>
+            <li>Reduced visibility into asset history, ownership, and active operational state</li>
+            <li>Higher risk of duplicate records, outdated information, and process inefficiency</li>
+          </ul>
+        </article>
+
+        <article class="content-card">
+          <h3>Operational Consequences</h3>
+          <ul>
+            <li>Difficulty establishing a single reliable source of truth for equipment data</li>
+            <li>Increased manual reconciliation between teams and tracking methods</li>
+            <li>Reduced confidence in reporting and downstream operational decisions</li>
+            <li>Limited scalability as asset volume and administrative complexity increased</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-surface">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">System Design</span>
+        <h2>Solution Architecture</h2>
+        <p>
+          EMP introduces a centralized portal model supported by structured data design, standardized record handling, and a long-term integration direction intended to improve trust, visibility, and maintainability of equipment data.
+        </p>
+      </div>
+
+      <div class="split-grid">
+        <article class="content-card">
+          <h3>Architecture Direction</h3>
+          <p>
+            The portal was designed to support a more controlled data environment where equipment records can be organized through relational structure rather than disconnected flat-file tracking.
+          </p>
+          <ul>
+            <li>Centralized record management</li>
+            <li>Relational data modeling direction</li>
+            <li>Standardized handling of equipment lifecycle states</li>
+            <li>Improved visibility into operational asset information</li>
+          </ul>
+        </article>
+
+        <article class="content-card">
+          <h3>Delivery Model</h3>
+          <p>
+            The solution direction emphasizes Dataverse-oriented structure and future enterprise data integration to support scalable asset management, reporting consistency, and stronger governance over equipment information.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Data Architecture</span>
+            <span class="tag">Dataverse</span>
+            <span class="tag">Lifecycle Tracking</span>
+            <span class="tag">System Standardization</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Capability Areas</span>
+        <h2>System Capabilities</h2>
+        <p>
+          The portal was shaped around centralized record control, more reliable equipment tracking, and a stronger foundation for scalable data management.
+        </p>
+      </div>
+
+      <div class="capabilities-grid">
+        <article class="capability-card">
+          <h3>Centralized Asset Tracking</h3>
+          <p>Equipment records were moved toward a unified system model to improve consistency and reduce fragmented tracking.</p>
+        </article>
+
+        <article class="capability-card">
+          <h3>Relational Data Structure</h3>
+          <p>The design direction supports more scalable data relationships and stronger integrity than spreadsheet-based tracking methods.</p>
+        </article>
+
+        <article class="capability-card">
+          <h3>Lifecycle Visibility</h3>
+          <p>Improved ability to monitor equipment status, assignment, and record history across operational use.</p>
+        </article>
+
+        <article class="capability-card">
+          <h3>Governance Foundation</h3>
+          <p>The system supports cleaner ownership, standardized updates, and stronger long-term data management controls.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-surface">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Strategic Value</span>
+        <h2>Impact</h2>
+        <p>
+          The primary value of EMP is the establishment of a more reliable system foundation for equipment data, reducing fragmentation while improving visibility, scalability, and operational trust.
+        </p>
+      </div>
+
+      <div class="split-grid">
+        <article class="content-card">
+          <h3>Operational Outcomes</h3>
+          <ul>
+            <li>Reduced dependency on spreadsheet-based local tracking</li>
+            <li>Improved consistency in how equipment information is organized and maintained</li>
+            <li>Better visibility into active equipment records and lifecycle state</li>
+          </ul>
+        </article>
+
+        <article class="content-card">
+          <h3>System Outcomes</h3>
+          <ul>
+            <li>Created a stronger architectural base for centralized equipment management</li>
+            <li>Improved readiness for future reporting and enterprise data integration</li>
+            <li>Established a more scalable direction for long-term asset data governance</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Project Navigation</span>
+        <h2>Source and Portfolio Links</h2>
+        <p>Move to the broader portfolio or review the full repository directly.</p>
+      </div>
+
+      <div class="split-grid">
+        <article class="content-card">
+          <h3>Main Portfolio</h3>
+          <p>Return to the primary portfolio landing page.</p>
+          <div class="project-links">
+            <a href="https://awindsor7912.github.io/#home">Go to Home</a>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <h3>Source Repository</h3>
+          <p>Review the repository and supporting documentation directly on GitHub.</p>
+          <div class="project-links">
+            <a href="https://github.com/awindsor7912/equipment-management-portal" target="_blank" rel="noopener noreferrer">Open GitHub Repo</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-shell">
+    <div>
+      <a class="brand" href="https://awindsor7912.github.io/#home">
         <span class="brand-mark">AW</span>
         <span class="brand-text">Ashley Windsor | Operations &amp; Analytics Portfolio</span>
       </a>
-
-      <nav class="site-nav" aria-label="Primary">
-        <a href="https://awindsor7912.github.io/" class="nav-link">Home</a>
-        <a href="https://awindsor7912.github.io/billing-operations-management-system/" class="nav-link">BOMS</a>
-        <a href="https://awindsor7912.github.io/equipment-management-portal/" class="nav-link nav-link-active">EMP</a>
-        <a href="https://awindsor7912.github.io/Operations-Analytics-Portfolio/" class="nav-link">Analytics</a>
-        <a href="https://awindsor7912.github.io/the-master-s-loom/" class="nav-link">Loom</a>
-      </nav>
+      <p>Centralized asset tracking, data architecture, and equipment lifecycle visibility.</p>
     </div>
-  </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="container page-hero-shell">
-        <div class="hero-panel">
-          <span class="kicker">Systems Design Project</span>
-          <h1>Equipment Management Portal (EMP)</h1>
-          <p>
-            Centralized equipment tracking and data management concept designed to improve visibility,
-            reduce spreadsheet fragmentation, and support more structured lifecycle oversight.
-          </p>
-          <p>
-            This project is best positioned as an operational data management and systems design initiative.
-            The value is in centralization, cleaner tracking logic, and a stronger path toward scalable equipment data control.
-          </p>
-
-          <div class="button-row">
-            <a class="button button-primary" href="https://github.com/awindsor7912/equipment-management-portal">View Source</a>
-            <a class="button button-secondary" href="https://awindsor7912.github.io/">Back to Home</a>
-          </div>
-        </div>
-
-        <aside class="hero-side-panel">
-          <div>
-            <h3>Project Snapshot</h3>
-            <p>Centralized portal concept for equipment lifecycle visibility and structured operational tracking.</p>
-          </div>
-
-          <div class="hero-stat-list">
-            <div class="hero-stat">
-              <span class="hero-stat-label">Project Theme</span>
-              <span class="hero-stat-value">Data centralization and lifecycle oversight</span>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-label">Design Direction</span>
-              <span class="hero-stat-value">Replace fragmented spreadsheet-based tracking</span>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-label">Focus Areas</span>
-              <span class="hero-stat-value">Operational visibility · Systems design · Data structure</span>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-kicker">Overview</span>
-          <h2>What the project solves</h2>
-          <p>Built to address disconnected tracking methods and improve equipment data consistency across operational workflows.</p>
-        </div>
-
-        <div class="card-grid">
-          <article class="content-card">
-            <h3>Business problem</h3>
-            <p>
-              Equipment records were often spread across disconnected spreadsheets and local tracking methods,
-              making visibility, consistency, and lifecycle oversight harder to maintain.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <h3>Solution direction</h3>
-            <p>
-              EMP proposes a centralized tracking structure that supports more standardized records,
-              clearer status visibility, and a stronger long-term data management model.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-kicker">Approach</span>
-          <h2>Implementation themes</h2>
-          <p>Focused on centralization, structured data design, and long-term maintainability.</p>
-        </div>
-
-        <div class="card-grid">
-          <article class="content-card">
-            <div class="card-meta">
-              <span class="tag">Data Design</span>
-              <span class="tag">Structure</span>
-            </div>
-            <h3>Cleaner data management</h3>
-            <p>
-              The portal concept supports more consistent equipment records through a more organized and relationally minded structure.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <div class="card-meta">
-              <span class="tag">Visibility</span>
-              <span class="tag">Operations</span>
-            </div>
-            <h3>Improved lifecycle oversight</h3>
-            <p>
-              Designed to make movement, status, and record ownership easier to review across operational work.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <div class="card-meta">
-              <span class="tag">Scalability</span>
-              <span class="tag">Future State</span>
-            </div>
-            <h3>More durable than tracker files</h3>
-            <p>
-              The project is framed as a scalable system direction rather than another one-off spreadsheet replacement.
-            </p>
-          </article>
-
-          <article class="content-card">
-            <div class="card-meta">
-              <span class="tag">Portfolio Use</span>
-              <span class="tag">Documentation</span>
-            </div>
-            <h3>Systems thinking demonstration</h3>
-            <p>
-              This repo shows operational systems thinking applied to a data visibility and asset tracking problem.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-kicker">Links</span>
-          <h2>Project navigation</h2>
-          <p>Move through the broader portfolio or review source material.</p>
-        </div>
-
-        <div class="contact-grid">
-          <article class="contact-card">
-            <h3>Main Portfolio</h3>
-            <p>Return to the portfolio landing page.</p>
-            <a href="https://awindsor7912.github.io/">Go to Home</a>
-          </article>
-
-          <article class="contact-card">
-            <h3>Source Repository</h3>
-            <p>Review the repository and documentation directly.</p>
-            <a href="https://github.com/awindsor7912/equipment-management-portal">Open GitHub Repo</a>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-shell">
-      <div>
-        <strong>Equipment Management Portal (EMP)</strong>
-        <p>Centralized equipment tracking, visibility, and structured operational data design.</p>
-      </div>
-
-      <div class="footer-links">
-        <a href="https://awindsor7912.github.io/">Home</a>
-        <a href="https://www.linkedin.com/in/ashleydwindsor">LinkedIn</a>
-      </div>
+    <div class="footer-links">
+      <a href="https://awindsor7912.github.io/#home">Home</a>
+      <a href="https://www.linkedin.com/in/ashley-mcmillon-929799257/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
-  </footer>
-</body>
-</html>
+  </div>
+</footer>
